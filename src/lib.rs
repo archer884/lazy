@@ -52,7 +52,7 @@ impl<T, F> Lazy<T, F>
 
 #[cfg(test)]
 mod lazy_tests {
-    use super::Lazy;
+    use super::Lazy; // haha -- "super lazy" -- get it?
 
     #[test]
     fn lazy_value_works() {
